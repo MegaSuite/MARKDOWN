@@ -501,18 +501,18 @@ long Fibonacci(long n)
 		return -1;
 	}
 
-	long fib_n1 = 0, fib_n = 1, fib_n2;
+	long fib_n1 = 1, fib_n2 = 1, fib_n;
 
 	// n equals 1 or 2
-	if (n == 1) return 0;
+	if (n == 1) return 1;
 	if (n == 2) return 1;
 
 	// n greater than or equal to 3
 	for (long i = 3; i <= n; i++)
 	{
 		// update old values
-		fib_n2 = fib_n1;
-		fib_n1 = fib_n;
+		fib_n1 = fib_n2;
+		fib_n2 = fib_n;
 		fib_n = fib_n1 + fib_n2;
 	}
 
