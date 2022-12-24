@@ -11,6 +11,9 @@
 
 ---
 3、粗浅地了解了vim编辑器的基础命令，并将其与nano编辑器进行了对比。
+`
+(1)normal,insert,lastline
+(2)`
 ![zvlXMd.png](https://s1.ax1x.com/2022/12/24/zvlXMd.png)
 ![zvlLxH.png](https://s1.ax1x.com/2022/12/24/zvlLxH.png)
 
