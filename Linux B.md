@@ -11,9 +11,17 @@
 
 ---
 3、粗浅地了解了vim编辑器的基础命令，并将其与nano编辑器进行了对比。
-`
+```
 (1)normal,insert,lastline
-(2)`
+(2)page down键
+(3)037G
+(4):wq!
+(5)在使用cc命令之后，vim会自动进入insert模式，所以在使用cc命令之后若还想要使用其他命令，如撤销和粘贴则需先敲击Esc键进入normal模式。而在使用dd命令之后则仍处于normal模式。
+(6)100L
+(7)u
+(8)G
+
+```
 ![zvlXMd.png](https://s1.ax1x.com/2022/12/24/zvlXMd.png)
 ![zvlLxH.png](https://s1.ax1x.com/2022/12/24/zvlLxH.png)
 
